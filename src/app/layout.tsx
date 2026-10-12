@@ -20,9 +20,27 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en" suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      
+<head>
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        try {
+          const theme = localStorage.getItem("portfolio-theme");
+          if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+          } else if (theme === "light") {
+            document.documentElement.classList.remove("dark");
+          }
+        } catch (e) {}
+      `,
+    }}
+  />
+</head>
+
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
