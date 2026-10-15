@@ -128,7 +128,7 @@ export default function Home() {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-flex rounded-full border border-violet-200 bg-white dark:bg-[#171320] px-4 py-2 text-sm font-semibold text-indigo-700 shadow-sm">
-              ✨ Available for Internship
+              ✨ Open to Internship Opportunities
             </span>
             <h1 className="mt-7 text-5xl font-extrabold leading-tight tracking-tight md:text-6xl">
               Hi, I&apos;m
@@ -271,16 +271,10 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <p className="text-lg leading-9 text-slate-600 dark:text-zinc-300">
-                I&apos;m Thushini Jayamaha, a BSc Information Technology
-                undergraduate at SIBA Campus. I enjoy building modern web
-                applications, exploring cloud technologies, and learning
-                DevOps practices.
+                I&apos;m Thushini Jayamaha, a BSc Information Technology undergraduate at SIBA Campus with a strong interest in software engineering and modern technology. I enjoy developing full-stack web applications, designing intuitive user interfaces, building RESTful APIs, and working with databases to create efficient, user-friendly solutions.
               </p>
               <p className="mt-5 text-lg leading-9 text-slate-600 dark:text-zinc-300">
-                My interests include full-stack development, cloud computing,
-                automation, and problem-solving. I&apos;m always eager to
-                explore new technologies, improve my skills, and contribute
-                to real-world software projects.
+                My interests span Full-Stack Development, Cloud Computing & DevOps, UI/UX Design, Database Management, Software Engineering, and API Development. I&apos;m passionate about exploring emerging technologies, improving my technical and problem-solving skills, and applying my knowledge to real-world projects. I&apos;m eager to gain industry experience and contribute to innovative software solutions through an internship opportunity.
               </p>
               <a
                 href="#contact"
